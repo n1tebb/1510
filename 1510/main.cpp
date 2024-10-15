@@ -1,7 +1,7 @@
 #include <iostream>
 #include <Windows.h>
 
-int printarr(int arr[], int size)
+void printarr(int arr[], int size)
 {
 	std::cout << "arrint: ";
 	for (int i = 0; i < size; i++)
@@ -9,10 +9,9 @@ int printarr(int arr[], int size)
 		std::cout << arr[i] << " ";
 	}
 	std::cout << "\n";
-	return arr, size;
 }
 
-char printarr(char arr[], int size)
+void printarr(char arr[], int size)
 {
 	std::cout << "arrchar: ";
 	for (int i = 0; i < size; i++)
@@ -20,10 +19,9 @@ char printarr(char arr[], int size)
 		std::cout << arr[i] << " ";
 	}
 	std::cout << "\n";
-	return arr, size;
 }
 
-double printarr(double arr[], int size)
+void printarr(double arr[], int size)
 {
 	std::cout << "arrdouble: ";
 	for (int i = 0; i < size; i++)
@@ -31,7 +29,6 @@ double printarr(double arr[], int size)
 		std::cout << arr[i] << " ";
 	}
 	std::cout << "\n";
-	return arr, size;
 }
 
 int main()
